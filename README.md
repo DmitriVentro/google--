@@ -1,7 +1,45 @@
 # google-*
 Google <Название> - it's a tool for sharing files between two google accounts without saving data on the server.
-<h1 align='center'>Инструкция по работе с репозиторием <strike> В ожидании </strike></h1>
+<h1 align='center'>Инструкция по работе с репозиторием</h1>
 
+<ul>
+    <li> <p>Клонирование репозитория к себе</p>
+        <ol type="1">
+            <li><p>Открываем cmd</p></li>
+            <li><p>Выполняем команду:<br>git clone https://github.com/DmitriVentro/google--.git</p></li>
+            <li><p>Выполняем команду cd google--</p></li>
+            <li><p>Отлично! Вы внутри!</p></li>
+        </ol>
+    </li>
+    <li> <p>Внесение изменений в локальном репозитории</p>
+        <ol type="1">
+            <li><p>Добавление тестовых наработок на ветке dev</p>
+                <ol type="i"> 
+
+                        <li><p>В приложении Github Desktop</p>
+                            <ol type="a">
+                                <li>Добавляем репозиторий, нажимая на кнопку Add -> Add existing repository</li>
+                                <li>Находим репозиторий на компьютере</li>
+                                <li>Меняем ветку на dev в current branch</li>
+                                <li>Даем название коммиту и коммитим</li>
+                            </ol>
+                        </li>
+                        <li><p>В cmd</p>
+                            <ol type="a">
+                                <li>Открываем cmd</li>
+                                <li>С помощью команды cd находим репозиторий</li>
+                                <li>Используем команду git checkout dev</li>
+                                <li>Изменяем файлы и коммитим командой git commit "текст коммита"</li>
+                                
+                            </ol>
+                        </li>
+                        
+                </ol></li>
+            <li><p>Добавление изменений в ветку main - договоримся на месте! Объясню в чате!ы</p></li>
+        </ol>
+        
+    </li>
+</ul>
 <h1 align='center'>Функционал Frontend</h1>
 <ul>
     <li> Регистрация / Авторизация
